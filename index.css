@@ -1,0 +1,156 @@
+/*This is for my name at the very top of the page.  it centers
+the text and then also adds negative margin properties for both the top
+and the bottom to reduce the amount of empty space on the resume*/
+.my-name {
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+
+/* This contains the email, phone numberm and location for the head
+of the resume */
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+}
+
+.email-left {
+    text-align: left;
+}
+
+.phone-number-center {
+    text-align: center; 
+    margin-right: 68px;
+    flex-grow: 1;
+    
+}
+
+.location-right {
+    text-align: right;
+}
+
+/* .pdf-page {
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto;
+    padding: 1in;
+    background-color: white;
+    
+} */
+
+.professional-summary-group {
+    margin-top: -10px;
+}
+
+p.professional-summary {
+    margin-top: -15px;
+    text-align: left;
+}
+
+.education {
+    margin-top: -10px;
+}
+
+.jjc {
+    margin-top: -20px;
+}
+
+.lewis {
+    margin-top: -16px;
+}
+
+.relevant-courses-heading {
+    margin-top: -13px;
+}
+
+.relevant-courses {
+    display: flex;
+    margin-top: -31px;
+}
+
+.right-course-list {
+    margin-left: -25px;
+    margin-right: 10px;
+}
+
+.left-course-list {
+    margin-left: 100px;
+}
+
+.skills-header {
+    margin-top: -10px;
+}
+
+.skills-and-qualifications {
+    display: flex;
+    margin-top: -31px;
+}
+
+.right-skills-list {
+    margin-left: -25px;
+    margin-right: 10px;
+}
+
+.left-skills-list {
+    margin-left: 100px;
+}
+
+.work-experience-header {
+    margin-top: -9px;
+}
+
+.work-experience-header {
+    margin-top: -12px;
+}
+
+.location-date-div {
+    display: flex;
+    margin-top: -23px;
+}
+
+.location {
+    text-align: left;
+}
+
+.date {
+    position: absolute;
+    right: 0px;
+}
+
+.liquor-clerk-header {
+    margin-top: -2px;
+}
+
+.liquor-clerk-list {
+    margin-left: -25px;
+    margin-top: -20px;
+}
+
+.scan-coordinator-header {
+    margin-top: -16px;
+}
+
+.scan-coordinator-list {
+    margin-top: -20px;
+    margin-left: -25px;
+}
+
+.lawn-maintenance-header-div {
+    display: flex;
+}
+
+.lawn-maintenance-header {
+    margin-top: -15px;
+}
+
+.lawn-maintenance-date {
+    margin-top: -14px;
+    position: absolute;
+    right: 0px;
+}
+
+.lawn-maintenance-list {
+    margin-top: -35px;
+    margin-left: -25px;
+}
