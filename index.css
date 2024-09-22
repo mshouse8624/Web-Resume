@@ -1,3 +1,9 @@
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: lightgray;
+}
+
 /*This is for my name at the very top of the page.  it centers
 the text and then also adds negative margin properties for both the top
 and the bottom to reduce the amount of empty space on the resume*/
@@ -113,9 +119,10 @@ p.professional-summary {
     text-align: left;
 }
 
-.date {
+.jewel-osco-date {
     position: absolute;
     right: 0px;
+    margin-right: 120px;
 }
 
 .liquor-clerk-header {
@@ -148,6 +155,7 @@ p.professional-summary {
     margin-top: -14px;
     position: absolute;
     right: 0px;
+    margin-right: 120px;
 }
 
 .lawn-maintenance-list {
